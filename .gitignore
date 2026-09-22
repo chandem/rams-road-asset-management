@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build
+dist/
+.output/
+.nitro/
+.vinxi/
+.tanstack/
+routeTree.gen.ts
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & caches
+*.log
+npm-debug.log*
+.DS_Store
+.cache/
+.turbo/
+coverage/
+*.tsbuildinfo
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test
+.vitest/
